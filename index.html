@@ -1,10 +1,47 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Luo Renhao's personal website</title>
-	</head>
-	<body>
-		<h1>欢迎来到我的个人网站</h1>
-	</body>
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css"/>
+  <script src="js/index.js"></script>
+ </head>
+ <body>
+	<div class="all">
+		<div class="background_image" id="img"></div><!--背景图片-->
+		<div class="chang_img"><!--换背景图片按钮-->
+			<div class="chang_img_left" id="left"">&nbsp;&nbsp;&#x3c</div>
+			<div class="chang_img_right" id="right">&nbsp;&nbsp;&#x3e</div>
+		</div>
+		<div class="search"><!--搜索框-->
+			<input type="text" class="search_text"/>
+			<input type="button" class="search_button" value="&#128269"/>
+		</div>
+		<p class="music_title">音乐</p>
+		<div class="music">
+			<audio id="audio" src="./music/01.mp3" ></audio>
+			<div class="music_interface">
+				<p id="play">&#x25b7</p>
+				<p id="last_song">&#8920</p>
+				<p id="next_song">&#8921</p>
+				<p id="current_duration">0.00</p>
+				<p class="xiegang">/</p>
+				<p id="total_duration">0.00</p>
+				<div class="schedule">
+					<div class="progress_bar"></div>
+					<div id="playback_progress"></div>
+				</div>
+				<div id="broadcast_mode">
+					<p id="arrow"></p>
+					<p id="neirong"></p>
+				</div>
+			</div>
+		</div><!--音乐-->
+		<div class="kong"></div><!---->
+	</div>
+ </body>
 </html>
