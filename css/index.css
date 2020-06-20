@@ -1,0 +1,184 @@
+*{
+	margin:0;
+	padding:0;
+}
+.all{
+	position:relative;
+}
+.background_image{
+	background-image: url("../img/background_image1.jpg");
+	background-attachment:fixed;/*Ê¹ÍøÕ¾»¬¶¯Ê±±³¾°Í¼Æ¬²»»¬¶¯*/
+	background-size:cover;
+	width:1536px;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:0.6;
+	z-index:-1;
+	/*overflow:hidden;*/
+}
+.chang_img .chang_img_left{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	position:fixed;
+	top:350px;
+	left:40px;
+	border:1px solid #000;
+	cursor:default;
+}
+.chang_img .chang_img_right{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	position:fixed;
+	top:350px;
+	right:40px;
+	border:1px solid #000;
+	cursor:default;
+	user-select:none;
+}
+.search{
+	position:absolute;
+	top:50px;
+	left:50%;
+	margin-left:-400px;
+	width:800px;
+	height:30px;
+	border:1px solid #000;
+}
+.search .search_text{
+	width:752px;
+	height:28px;
+	float:left;
+	opacity:.6;
+}
+.search .search_button{
+	width:44px;
+	height:31px;
+	opacity:.6;
+}
+.music_title{
+	width:32px;
+	height:20px;
+	display:block;
+	position:absolute;
+	top:120px;
+	left:50%;
+	margin-left:-16px;
+}
+.music{
+	width:500px;
+	height:200px;
+	position:absolute;
+	top:400px;
+	left:50%;
+	margin:-250px;
+}
+.music_interface{
+	width:500px;
+	height:40px;
+	/*background-color:rgba(255,0,0,.3);*/
+	border:1px solid rgba(255,255,255,.5);
+}
+#play{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin:8px 0 0 15px;
+	float:left;
+	cursor:default;
+}
+#last_song{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin:8px 0 0 30px;
+	float:left;
+	cursor:default;
+}
+#next_song{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin:8px 0 0 5px;
+	float:left;
+	cursor:default;
+}
+#current_duration{
+	margin:8px 0 0 30px;
+	float:left;
+}
+.xiegang{
+	margin:8px 0 0 0;
+	float:left;
+}
+#total_duration{
+	margin:8px 0 0 0;
+	float:left;
+}
+.schedule{
+	margin:18px 0 0 20px;
+	float:left;
+}
+#playback_progress{
+	width:10px;
+	height:10px;
+	margin:-3px 0 0 -110px;
+	float:left;
+	background-color:#000;
+	border-radius:10px;
+}
+.progress_bar{
+	width:100px;
+	margin:0 0 0 -6px;
+	float:left;
+	border:2px solid #000;
+	border-radius:2px;
+}
+#broadcast_mode{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin:8px 20px 0 0;
+	float:right;
+	/*background-color:rgba(255,0,0,.5);*/
+}
+#arrow{
+	width:20px;
+	height:20px;
+	background:url('../img/return.png');
+	background-size:20px 20px;
+}
+#neirong{
+	width:64px;
+	height:20px;
+	margin:14px 0 0 -23px;
+	background-color:rgba(0,0,0,.6);
+	color:rgba(255,255,255,1);
+	display:none;
+	opacity:.7;
+}
+div.game{
+	width:100px;
+	height:100px;
+	display:block;
+	position:absolute;
+	top:500px;
+	left:100px;
+}
+p.game{
+	width:32px;
+	height:20px;
+}
+a{
+	color:black;
+}
+a:hover{
+	color:red;
+}
+.kong{
+	width:1536px;
+	height:1000px;
+}
