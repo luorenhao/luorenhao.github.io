@@ -15,14 +15,14 @@ window.onload=function(){
 	var img = 1;
 	oDiv1.onclick = function(){
 		if (img==1){
-			img=9;
+			img=8;
 			oImg.style.backgroundImage = 'url(./img/background_image' + img + '.jpg)';
 		}else{
 			oImg.style.backgroundImage = 'url(./img/background_image' + --img + '.jpg)';
 		}
 	}
 	oDiv2.onclick = function(){
-		if (img==9){
+		if (img==8){
 			img=1;
 			oImg.style.backgroundImage = 'url(./img/background_image' + img + '.jpg)';
 		}else{
@@ -94,15 +94,15 @@ window.onload=function(){
 	oP4.onclick = function(){
 		if(arrow==1){
 			oP4.style.backgroundImage = "url('./img/random.png')";
-			oP5.innerHTML = '\u968f\u673a\u64ad\u653e';//Ëæ»ú²¥·Å
+			oP5.innerHTML = '\u968f\u673a\u64ad\u653e';//éšæœºæ’­æ”¾
 			arrow++;
 		}else if(arrow==2){
 			oP4.style.backgroundImage = "url('./img/repeat.png')";
-			oP5.innerHTML = '\u5355\u66f2\u5faa\u73af';//µ¥ÇúÑ­»·
+			oP5.innerHTML = '\u5355\u66f2\u5faa\u73af';//å•æ›²å¾ªç¯
 			arrow++;
 		}else{
 			oP4.style.backgroundImage = "url('./img/return.png')";
-			oP5.innerHTML = '\u987a\u5e8f\u64ad\u653e';//Ë³Ğò²¥·Å
+			oP5.innerHTML = '\u987a\u5e8f\u64ad\u653e';//é¡ºåºæ’­æ”¾
 			arrow = 1;
 		}
 	}
@@ -117,7 +117,7 @@ window.onload=function(){
 				oAudio.autoplay = 'autoplay';
 			}
 		}else if(arrow==2){
-			//²úÉúÒ»¸ö0-10µÄËæ»úÊı,Math.random()ÊÇ²úÉúÒ»¸ö0-1µÄËæ»úÊı£¬math.round()ÊÇËÄÉáÎåÈë
+			//äº§ç”Ÿä¸€ä¸ª0-10çš„éšæœºæ•°,Math.random()æ˜¯äº§ç”Ÿä¸€ä¸ª0-1çš„éšæœºæ•°ï¼Œmath.round()æ˜¯å››èˆäº”å…¥
 			//var random = Math.round(Math.random()*10);
 			var random;
 			do{
@@ -134,11 +134,11 @@ window.onload=function(){
 	oP4.onmouseover = function(){
 		oP5.style.display = 'block';
 		if(arrow==1){
-			oP5.innerHTML = '\u987a\u5e8f\u64ad\u653e';//Ë³Ğò²¥·Å
+			oP5.innerHTML = '\u987a\u5e8f\u64ad\u653e';//é¡ºåºæ’­æ”¾
 		}else if(arrow==2){
-			oP5.innerHTML = '\u968f\u673a\u64ad\u653e';//Ëæ»ú²¥·Å
+			oP5.innerHTML = '\u968f\u673a\u64ad\u653e';//éšæœºæ’­æ”¾
 		}else{
-			oP5.innerHTML = '\u5355\u66f2\u5faa\u73af';//µ¥ÇúÑ­»·
+			oP5.innerHTML = '\u5355\u66f2\u5faa\u73af';//å•æ›²å¾ªç¯
 		}
 	}
 	oP4.onmouseout = function(){
